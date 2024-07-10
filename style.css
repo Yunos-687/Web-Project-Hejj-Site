@@ -1,0 +1,744 @@
+/*  header style  */
+ 
+header .navbar{
+  background-color: #f5f5f5;
+  border-radius: 2rem;
+  color: #2a2323;
+  direction: rtl;
+  width: 600px;
+  padding: 10px;
+  height: auto;
+  display:inline-flex;
+  
+}
+
+/*  video background style   */
+
+#video-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+
+/*  style for all the buttons in the sites  */
+
+
+button{
+ background-color: #c4ad7c;
+ border-radius: 0.5rem;
+ border-color: #525252;
+ font-weight: bold;
+ height: 30px;
+font-size: large;
+ 
+
+}
+button:hover{
+cursor: pointer;
+}
+header .navbar .a1{
+  padding-right: 400px;
+
+}
+
+
+
+/*  image logo style */
+.icon-logo {
+width: 70px;
+height: 70px;
+background: #77704c;
+border-radius: 30%; /* Make it a circle */
+overflow: hidden; /* Ensure the image stays within the circle */
+display: flex; /* Center image vertically and horizontally */
+justify-content: center;
+align-items: center;
+}
+
+.icon-logo img {
+max-width: 150%;
+max-height: 150%;
+}
+
+/*  body style for all the pages  */
+
+
+body {
+font-family: 'Jomhuria', serif;
+font-weight: 400;
+font-style: normal;
+background: #d9dbce;
+min-height: 100vh; /* Ensure that the body takes up at least the height of the viewport */
+margin: 0; /* Remove default margin */
+padding: 0; /* Remove default padding */
+display: flex;
+flex-direction: column;
+align-content: center;
+color: #010101;
+}
+
+
+.main-content {
+flex-grow: 1; /* Grow to fill remaining space */
+
+}
+
+footer {
+flex-shrink: 0; /* Allow footer to shrink if necessary */
+margin-top: 20px; /* Add margin between footer and content */
+}
+
+
+
+
+/*  h1  style  for fonts */
+
+body h1 {
+font-family: 'Amiri', serif;
+text-align: right;
+font-weight: 700;
+font-style: normal;
+color: #0f0101;
+}
+
+
+/*  header style  */
+
+header {
+  
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1.5rem 7%;
+
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+display:inline-flex;
+
+}
+
+
+
+.bacg{
+  align-items: center;
+  justify-content: center;
+ display: flex;
+ 
+  
+}
+.ic img{
+height: 70px;
+width: 100px;
+}
+
+.icon-left {
+  width: 100px;
+height: 100px;
+margin-top: 0px;
+
+}
+.icon-right {
+  right: 100px;
+  width: 100px;
+ height: 100px;
+ background: #77704c;
+ border-radius: 2rem;
+}
+
+h2{
+  align-items: center;
+ justify-content: center;
+}
+.box img{
+  width: 24px;
+  height: 24px;
+  padding-top: 10px;
+ 
+ 
+}
+.box div{
+  font-size: 12px;
+}
+.box{
+ margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  border:2px solid #0f0e0e;
+ text-align: center;
+  width:70px;
+  height: 70px;
+  background-color: #b3afaf;
+}
+.cent{
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+padding: 1.5rem 7%;
+
+max-width: 700px;
+z-index: 1000;
+margin-left: 300px;
+
+font-weight: bold;
+
+
+
+}
+
+
+/*  form  style  */
+
+
+.form-container {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 100px;
+  transform-style: preserve-3d;
+ 
+  
+  
+}
+
+
+
+
+.form-container form {
+  padding: 1rem;
+  width: 40rem;
+  border-radius: 2rem;
+  justify-content: center;
+  border:2px solid #ffff;
+  text-align: center;
+  background:#fafbf5;
+  transform-style: preserve-3d;
+}
+
+
+
+.form-container form h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #1e1d1d;
+}
+.form-container form h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: #f9f3f3;
+}
+
+.form-container form .box {
+  width: 90%;
+  border-radius: 2rem;
+  border-color: #9a9b96;
+  
+  
+  font-size: 1.8rem;
+  color: #1e1d1d;
+
+  margin: 1rem 0;
+}
+
+.form-container form p {
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  color:black;
+}
+
+.form-container form p a {
+  color: #010101;
+}
+
+.form-container form p a:hover {
+  text-decoration: underline;
+}
+
+
+.message {
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 4.8rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10000;
+  gap: 1.5rem;
+  background:linear-gradient(to right, #65f78a, #db50db);
+}
+
+.message span {
+  font-size: 2rem;
+  color: #f5f5f5;
+}
+
+.message i {
+  cursor: pointer;
+  color: var(--red);
+  font-size: 2.5rem;
+}
+
+.message i:hover {
+  transform: rotate(90deg);
+}
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn,
+.log-btn,
+.reg-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+ 
+ background:#484fac;
+  font-size: 2.8rem;
+  border-radius: .5rem;
+  text-transform: capitalize;
+  border-color: #9a9b96;
+}
+
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover {
+  background:#f6fae5;
+}
+.writing{
+  color: aliceblue;
+  margin-left: 550px;
+  background-color:#010101;
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  padding-top: 15px;
+  font-size: 2.5rem;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+
+}
+.wr img{
+  height: 50px;
+  width: 50px;
+  padding-left: 100px;
+}
+.wr , .wr1{
+  display: inline;
+  justify-content: center;
+  margin-left: 470px;
+  padding-top: 50px;
+}
+.wr1 img{
+  height: 50px;
+  width: 140px;
+  padding-left: 100px;
+  
+}
+.wr1 .art{
+  height: 100px;
+}
+.text{
+ 
+  font-size: 2rem;
+  
+  margin-left: 380px;
+  margin-right: 370px;
+  
+}
+
+.file-upload {
+  position: relative;
+
+}
+
+.file-upload input {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.file-upload label {
+
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background:#f6fae5;
+  color: black;
+  text-align: left;
+}
+.footer .final {
+  text-align: center;
+  
+  justify-content: center;
+
+}
+.footer .final img{
+  width: 50px;
+  height: 50px;
+  border-radius: 2rem;
+  
+  
+}
+header .navbar img{
+  width: 30px;
+  height: 30px;
+ margin-right: 15px;
+
+}
+header .navbar .bton {
+ margin-right: 270px;
+ 
+
+}
+header .navbar .bton button{
+  margin-right: 15px;
+  
+
+ }
+
+.tx {
+  margin: 250px auto 0; /* Top margin of 300px, auto for left and right margins */
+  max-width: 1000px; /* Adjust the max-width as needed */
+}
+
+
+.tex {
+font-weight: bold; /* Make the text bold */
+text-align: center; /* Right-align the text */
+font-size: 25px; /* Adjust the font size as needed */
+line-height: 1.6; /* Adjust the line height as needed */
+color:#0a0a0a;
+}
+.tx1{
+  margin-top: 100px;
+  
+  width:80%;
+  direction: rtl;
+  margin-left: auto;
+  margin-top: 150px;
+  margin-right: auto;
+  text-align: center;
+  color: #29251c;
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 250px;
+
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-icon {
+  width: 30px;
+}
+.dropdown-icon1 {
+  width: 30px;
+}
+.dropdown-icon2 {
+  width: 30px;
+}
+.backspace{
+float: inline-end;
+}
+.backspace a img{
+height: 70px;
+} 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #dedddd;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #dedddd;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #dedddd;
+  min-width: 120px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #dedddd;
+}
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #dedddd;
+}
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: #dedddd;
+}
+.dropdown-content a:hover {
+  background-color: #dedddd;
+}
+.dropdown-content1 a:hover {
+  background-color: #dedddd;
+}
+.dropdown-content2 a:hover {
+  background-color: #dedddd;
+}
+.btns{
+  margin-bottom: 250px;
+  align-content: center;
+  align-items: center;
+  margin-top: 50px;
+  
+  
+
+}
+.btns .btn1{     
+  background-color: #c4ad7c;
+  width: 250px;
+  height: 70px;
+  margin-left: 370px;
+  font-size: 30px;
+  border-color: #525252;
+  
+}
+.btns .btn2{
+  background-color: #c4ad7c;
+  width: 250px;
+  height: 70px;
+  margin-left: 50px;
+  font-size: 30px;
+  border-color: #525252;
+  
+} 
+
+.contactContainer form input, select, textarea{
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */ 
+border: 1px solid #ccc; /* Gray border */
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+.contactContainer{
+width: 600px;
+position: relative; 
+right: 30%;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+.contactContainer h1{
+text-align: center;
+}
+.contactsubmit {
+background-color: #4CAF50;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.contactsubmit:hover {
+background-color: #45a049;
+}
+
+
+
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/makkah2.jpg");
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size:cover;
+  opacity: 0.5;
+}
+.hero-btn {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.hero-btn a{
+color: #010101;
+text-decoration: none;
+
+}
+.hero-btn a button{
+width: 300px;
+height: 100px;
+line-height: 100%;
+margin: 30px;
+display: block;
+font-size: 30px;
+}
+.hero-btn a :hover{
+cursor: pointer;
+}
+.hero-image8 {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/makkah1.jpg");
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size:cover;
+  opacity: 0.5;
+}
+.hero-btn2 {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.hero-btn2 a button{
+width: 150px;
+height: 30px;
+margin: 30px;
+display: block;
+font-size: 20px;
+float: left;
+}
+.hero-btn2 a{
+color: #010101;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  checkboxes style */
+
+.checklist {
+  direction: rtl;
+}
+
+
+.checklist label {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0; /* Adjust the margin as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #010101;
+}
+
+.checklist span {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5px 0; /* Adjust the margin as needed */
+  font-size: 20px; /* Adjust the font size as needed */
+  color: #010101;
+}
+.checklist input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 8px 40px 8px 20px; /* Adjust the margin as needed */
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+}
+
+
+
+.checklist input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.register_btn{
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+ 
+ background:#484fac;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  text-transform: capitalize;
+  border-color: #9a9b96;
+}
